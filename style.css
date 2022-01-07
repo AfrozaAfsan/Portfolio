@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.name{
+    color:violet;
+}
+.header{
+    width: 50%;
+    padding-left: 5%;
+}
+.header img{
+    width: 80%;
+}
+.container{
+    display: flex;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(aqua,royalblue);
+    font-weight: 900;
+   
+}
+.link{
+    margin-top: 30px;
+}
+.first{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cards{
+    display: flex;
+    
+}
+.card{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 40px;
+    padding-left: 10px;
+}
+.card h3{
+    color: blue;
+}
+.experience{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+
+
+}
+footer p{
+    text-align: center;
+    
+}
+#left{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#right{
+    border-left: 7px solid;
+    border-image:linear-gradient(violet,pink);
+    border-image-slice: 1;
+
+}
